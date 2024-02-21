@@ -3,6 +3,16 @@ entries:
   harness-ccm-autostopping:
   - apiVersion: v2
     appVersion: 1.1.3
+    created: "2024-02-21T18:31:05.008249346Z"
+    description: A Helm chart for the Harness CCM AutoStopping controller and router
+    digest: 74fa8bdd22729936c915e67e157643538a4dfc8884cbc39c49d43fee93cd1a21
+    name: harness-ccm-autostopping
+    type: application
+    urls:
+    - https://github.com/rssnyder/harness-ccm-autostopping/releases/download/harness-ccm-autostopping-0.1.0/harness-ccm-autostopping-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.1.3
     created: "2024-02-21T17:39:22.606462406Z"
     description: A Helm chart for the Harness CCM AutoStopping controller and router
     digest: a27b75c0a93d4666358ab315dcbc39fc7f5d610681aa885e5cc662263ab680b0
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/rssnyder/harness-ccm-autostopping/releases/download/harness-ccm-autostopping-0.1.0-alpha/harness-ccm-autostopping-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2024-02-21T17:39:22.606471243Z"
+generated: "2024-02-21T18:31:05.008264534Z"
