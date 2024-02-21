@@ -36,7 +36,7 @@ spec:
           imagePullPolicy: {{ .Values.controller.image.pullPolicy }}
           env:
           - name: HARNESS_API
-            value: {{ .Values.harnessAPI }}
+            value: https://{{ .Values.harnessUrl }}/gateway/lw/api
           - name: CONNECTOR_ID
             value: {{ .Values.connectorId }}
           - name: REMOTE_ACCOUNT_ID

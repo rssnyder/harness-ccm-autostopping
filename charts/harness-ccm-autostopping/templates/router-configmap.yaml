@@ -64,7 +64,7 @@ data:
             - endpoint:
                 address:
                   socket_address:
-                    address: app.harness.io
+                    address: {{ .Values.harnessUrl }}
                     port_value: 443
         transport_socket:
           name: envoy.transport_sockets.tls
