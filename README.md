@@ -27,6 +27,8 @@ namespace: `harness-autostopping`
 
 service name for router: `autostopping-router`
 
+service name for controller: `autostopping-controller` (therefor also hard-coded in the router configmap)
+
 deployment name for controller: `autostopping-controller`
 
 configmap: `harness-autostopping-enforcement`
