@@ -50,7 +50,7 @@ data:
             - endpoint:
                 address:
                   socket_address:
-                    address: {{ include "harness-ccm-autostopping.controller.name" . }}.{{ .Release.Namespace }}.svc.cluster.local
+                    address: autostopping-controller.{{ .Release.Namespace }}.svc.cluster.local
                     port_value: 18000
       - name: harness_api_endpoint
         connect_timeout: 0.25s
