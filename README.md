@@ -2,6 +2,9 @@
 
 helm chart for the kubernetes autostopping controller and router
 
+this chart deploys the components in red
+![image](https://github.com/rssnyder/harness-ccm-autostopping/assets/7338312/26308903-90a4-4348-8381-36d61a4beec5)
+
 ## usage
 
 > :warning: You must have the target cluster set up in Harness with a K8s and CCM K8s connector before you deploy this chart
