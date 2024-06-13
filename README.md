@@ -1,5 +1,8 @@
 # harness-ccm-autostopping
 
+> [!CAUTION]
+> development of this chart has moved to [rssnyder/charts](https://github.com/rssnyder/charts)
+
 helm chart for the kubernetes autostopping controller and router
 
 this chart deploys the components in red
